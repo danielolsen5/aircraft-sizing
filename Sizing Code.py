@@ -103,6 +103,10 @@ if Print:
     print(f"Tail Span: {b_t*100:.2f} cm")
     print(f"Dihedral Angle: {np.degrees(theta)} Deg")
     
+    print("Control Surfaces")
+    print(f"Aileron Span: {b_a * 100} cm")
+    print(f"Aileron chord: {c_a * 100} cm")
+    print(f"Rudder span: {.9*b_t*100} cm")
     print("Forces")
     print(f"Force on aileron: {F_a:.2f} N")
     print(f"Force on rudder: {F_r:.2f} N")
